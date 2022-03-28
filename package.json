@@ -57,8 +57,8 @@
     "url": "https://github.com/43144106ma/enn-egg-mqtt/issues"
   },
   "homepage": "https://github.com/43144106ma/enn-egg-mqtt#readme",
-  "author": "mafengzhi",
-  "license": "ISC",
+  "author": "mafengzhi <mafengzhi@enn.cn>",
+  "license": "MIT",
   "main": "app.js",
   "directories": {
     "lib": "lib"

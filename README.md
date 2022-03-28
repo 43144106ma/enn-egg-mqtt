@@ -138,7 +138,7 @@ If your Configure with multi clients, you can use `app.emqtt.get(instanceName)` 
 
 ## Questions & Suggestions
 
-Please open an issue [here](https://github.com/eggjs/egg/issues).
+Please open an issue [here](https://github.com/43144106ma/enn-egg-mqtt/issues).
 
 ## License
 
