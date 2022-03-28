@@ -1,0 +1,66 @@
+{
+  "name": "enn-egg-mqtt",
+  "version": "1.0.2",
+  "description": "egg plugin for enn-mqtt",
+  "eggPlugin": {
+    "name": "emqtt"
+  },
+  "keywords": [
+    "egg",
+    "eggPlugin",
+    "egg-plugin",
+    "mqtt",
+    "websocket"
+  ],
+  "dependencies": {
+    "debug": "^4.3.4",
+    "is-type-of": "^1.2.1",
+    "koa-compose": "^4.1.0",
+    "mqtt": "^4.3.7"
+  },
+  "devDependencies": {
+    "autod": "^3.0.1",
+    "egg": "^2.2.0",
+    "egg-bin": "^4.3.7",
+    "egg-ci": "^1.8.0",
+    "egg-mock": "^3.14.0",
+    "eslint": "^4.15.0",
+    "eslint-config-egg": "^6.0.0",
+    "pedding": "^1.1.0",
+    "rimraf": "^2.6.2",
+    "semver": "^5.4.1",
+    "supertest": "^3.0.0",
+    "uws": "^8.14.1",
+    "webstorm-disable-index": "^1.2.0"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "test": "npm run lint -- --fix && npm run test-local",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "lint": "eslint .",
+    "autod": "autod"
+  },
+  "files": [
+    "app",
+    "lib",
+    "config",
+    "app.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/43144106ma/enn-egg-mqtt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/43144106ma/enn-egg-mqtt/issues"
+  },
+  "homepage": "https://github.com/43144106ma/enn-egg-mqtt#readme",
+  "author": "fengzhi <mafengzhi@enn.cn>",
+  "license": "MIT",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  }
+}
