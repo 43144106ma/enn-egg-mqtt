@@ -4,11 +4,12 @@ node_js:
   - '8'
   - '10'
   - '12'
+  - '14'
 before_install:
   - npm i npminstall -g
 install:
   - npminstall
 script:
-  - npm run ci
+  - npm ci
 after_script:
   - npminstall codecov && codecov
