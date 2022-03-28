@@ -1,6 +1,6 @@
-# egg-mqtt
+# enn-egg-mqtt
 
-mqtt client based on mqtt for egg framework
+mqtt client based on mqtt for egg framework for ENN company
 
 ## Install
 
